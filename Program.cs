@@ -51,8 +51,10 @@ namespace debugws
           }
 
           int temp = arr[left];
-          arr[right] = temp;
+          
           arr[left] = arr[right];
+
+          arr[right] = temp;
         }
         else
         {
